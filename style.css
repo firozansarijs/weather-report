@@ -5,30 +5,9 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
-  background-color: #DADFF7;
-  color: black;
-
-}
-.parent nav {
-    margin: 20px;
-    font-weight: 500;
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
-nav ul {
+  height: 600px;
   display: flex;
 }
-
-nav li{
-    margin: 20px;
-    list-style: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-}
-.parent .center{
-  margin:30%;
-  background-color: red;
+main {
+  display: flex;
 }
