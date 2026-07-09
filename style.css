@@ -63,7 +63,7 @@ img{
   font-size: medium;
   color: #dadada;
   margin-right: 2px;
-  margin-top: 50px;
+  margin-top: 30px;
   border-bottom: 3px solid black;
   padding-bottom: 2px;
 }
@@ -71,7 +71,13 @@ img{
   display: flex;
   font-family: cursive;
   text-align: center;
-  font-size: xx-large;
+  font-size: small;
   margin-top: 5px;
   justify-content: space-between;
+}
+.detail-1,
+.detail-2 {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
 }

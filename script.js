@@ -2,8 +2,8 @@ const cityName = document.querySelector(".city h1");
 const weatherIcon = document.querySelector(".weather-icon");
 const temp = document.querySelector(".temp");
 const sun = document.querySelector(".cond");
-const hum = document.querySelector(".detail-1");
-const win = document.querySelector(".detail-2");
+const hum = document.querySelector(".detail-1 p");
+const win = document.querySelector(".detail-2 p");
     
 const search = document.querySelector(".search-container input");
 search.addEventListener("keydown", (evt) => {
